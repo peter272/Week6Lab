@@ -1,0 +1,26 @@
+<html>
+
+<head>
+
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+</head>
+<a href="/">Home</a> 
+<a href="/listalltasks">List Tasks</a> <br>   
+
+<body>
+    <form action="/addthistask" method="POST">
+        Task Name <input type="text" name="name" /><br>
+        Assign to <input type="text" name="handler" /><br>
+        Task Due Date <input type="date" name="date" /><br>
+        Task status <select name="status" />
+        <option value='Complete'> Complete</option>
+        <option value= 'inProgress'>InProgress</option>
+        <select><br>
+        Task Description <input type="text" name="desc" /><br>
+        <button>Submit</button>
+    </form>
+</body>
+
+</html>
